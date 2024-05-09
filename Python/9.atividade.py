@@ -8,9 +8,9 @@ for i in range (5):
     numero = int (input(f"Digite o {i+1} numero: "))
 
 if numero % 2 ==0:
-    pares = pares + numero
+    pares += 1
 else:
-    impares = impares + numero
+    impares += 1
 
 print(f"Pares: {pares}")
 print(f"Impares: {impares}")
